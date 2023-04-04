@@ -19,4 +19,5 @@ INSERT INTO students (name, age, adress) VALUES ('Ольга', 18, 'Москва
 SELECT name AS "Имя"
 FROM students 
 WHERE adress = "Москва" 
-AND age BETWEEN 18 and 29;
+AND age >= 18 
+AND age < 30;
